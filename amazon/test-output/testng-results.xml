@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29873" started-at="2019-06-13T11:05:42Z" finished-at="2019-06-13T11:06:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29873" started-at="2019-06-13T11:05:42Z" finished-at="2019-06-13T11:06:12Z">
+      <class name="com.amazon.testcases.LoginTest">
+        <test-method status="PASS" signature="getParameters(org.testng.ITestContext)[pri:0, instance:com.amazon.testcases.LoginTest@3bfdc050]" name="getParameters" is-config="true" duration-ms="28" started-at="2019-06-13T11:05:42Z" finished-at="2019-06-13T11:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60856961]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParameters -->
+        <test-method status="PASS" signature="readConfig(org.testng.ITestContext)[pri:0, instance:com.amazon.testcases.LoginTest@3bfdc050]" name="readConfig" is-config="true" duration-ms="119" started-at="2019-06-13T11:05:42Z" finished-at="2019-06-13T11:05:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60856961]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.amazon.testcases.LoginTest@3bfdc050]" name="beforeMethod" is-config="true" duration-ms="7904" started-at="2019-06-13T11:05:43Z" finished-at="2019-06-13T11:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testUserIsSignedUp()[pri:1, instance:com.amazon.testcases.LoginTest@3bfdc050]" name="testUserIsSignedUp" duration-ms="21795" started-at="2019-06-13T11:05:50Z" finished-at="2019-06-13T11:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserIsSignedUp -->
+      </class> <!-- com.amazon.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

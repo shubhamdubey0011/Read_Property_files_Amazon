@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+<parameter name="platform1" value="abc" />
+	<test name="Test1">
+	<parameter name="platform" value="abc" />
+		<classes>
+		
+			<class name="com.amazon.testcases.LoginTest" />
+			<parameter name="platform2" value="abc" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
